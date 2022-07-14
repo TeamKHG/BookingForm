@@ -7,53 +7,54 @@
 			<script>
 				function changeFunc(i) {
 					switch(i) {
+					case "ser":
+						document.getElementById("req").innerHTML = "";
+						break;
   					case "cav":
 						document.getElementById("req").innerHTML = "- Photocopy of Diploma and TOR\n- Payment PHP 250.00";
-   					break;
+   						break;
   					case "custom":
 						document.getElementById("req").innerHTML = "- Payment of PHP 150.00";
-   					break;
+   						break;
  					case "bon":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
-					break;
+						break;
 					case "grade":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
-					break;
+						break;
 					case "graduation":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
-					break;
+						break;
 					case "employ":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
-					break;
+						break;
 					case "auth":
   						document.getElementById("req").innerHTML = "- Photocopy of Documents\n- Payment of PHP 20.00 per Page";
-					break;
+						break;
 					case "form10":
   						document.getElementById("req").innerHTML = "- Photocopy of Documents\n- Form 138\n- Form 137\n- Birth Certificate PSA (photocopy)\n- Surrender School ID\n- Documentary Stamp";
-					break;
+						break;
 					case "tort":
   						document.getElementById("req").innerHTML = "- School Clearance\n- Honorable Dismissal\n- Good Moral Character\n- TOR Copy for ACLC\n- 2pcs. NSO Birth Certiicate (photocopy)\n- 2pcs. 2x2 id picture (whitebg w/ collar)\n- 2pcs. Documentary stamp\n- Surrender School ID";
-					break;
+						break;
 					case "torf":
   						document.getElementById("req").innerHTML = "- School Clearance- Form 138-A\n- Good Moral Character\n- Form 137-A\n- 2pcs. NSO Birth Certiicate (photocopy)\n- 2pcs. 2x2 id picture (whitebg w/ collar)\n- 2pcs. Documentary stamp\n- Surrender school ID";
-					break;
+						break;
 					case "aold":
   						document.getElementById("req").innerHTML = "- Ask for USN No.";
-					break;
+						break;
 					case "acurr":
   						document.getElementById("req").innerHTML = "- Ask for USN No.";
-					break;
+						break;
 					case "state":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
-					break;
+						break;
 					case "pay":
   						document.getElementById("req").innerHTML = "- Payment of PHP 20.00";
-					break;
+						break;
 					case "loss":
   						document.getElementById("req").innerHTML = "- Payment of PHP 20.00";
-					break;
-
-    				break;
+						break;
 				}
    			}
 				</script>
@@ -68,14 +69,17 @@
 		<div class="maindiv">
 			<div class="scnddiv">
 
-        		<form>  
+        		<form> 
             		<section>   
             		<label> Firstname: </label>           
            			<input type="text" name="firstname" size="15"/> 
+
             		<label> Lastname: </label>           
             		<input type="text" name="lastname" size="15"/> 
+
             		<label> Email: </label>           
                 	<input type="text" name="email" size="25"/> 
+
             		<label> Course: </label>     
             		<select>    
                 		<option value="course">Course</option>             
@@ -87,9 +91,10 @@
                 		<option value="phys">Physics</option>
                 		<option value="tech">Technology</option>
             		</select>   
+
             		<label> Service: </label>     
 					<select id="Service" onchange="changeFunc(value);">  
-                		<option>Service</option>     
+                		<option value="ser">Service</option>     
                 		<optgroup label="Registrar">          
                 		<option value="cav">CAV Documents</option>        
                 		<option value="custom">Customized Certificate</option>
@@ -110,6 +115,7 @@
                 		<option value="loss">Loss of Account Slip</option>
                 		</optgroup>    
             		</select>   
+            
             		<label> Message: </label>
                 	<input type="text" name="message" size="50"/>
 	    		</div>
@@ -123,7 +129,7 @@
                 		<option value="none">None</option>             
                 		<option value="GCash">GCash</option>        
                 		<option value="Bank">Bank</option>
-            		</select>
+					</select>
 
             		<label> Upload Files
                 		<input type="file" id="myFile" name="filename">
