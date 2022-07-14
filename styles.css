@@ -82,3 +82,6 @@ select, button, input{
 .lblalign{
     display: block;
 }
+#req{
+    width: 75%;
+}
