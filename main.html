@@ -14,7 +14,8 @@
             		<br>
             		<br> 
             		<br>
-            		<br>   
+            		<br>
+            		<section>   
             		<label> Firstname: </label>           
            		<input type="text" name="firstname" size="15"/> 
 
@@ -43,10 +44,10 @@
             		<br> 
 
             		<label> Service: </label>     
-           		<select> 
-                		<option value="ser">Service</option>     
+           		<select id="Service"> 
+                		<option>Service</option>     
                 		<optgroup label="Registrar">          
-                		<option value="cav">CAV Documents</option>        
+                		<option value="cav" onclick="myFunction()">CAV Documents</option>        
                 		<option value="custom">Customized Certificate</option>
                 		<option value="bon">Bonafide Certificate</option>
                 		<option value="grade">Certification of Grade</option>
@@ -63,7 +64,8 @@
                 		<option value="state">Statement of Account</option>
                 		<option value="pay">Certificate of Full Payment</option>
                 		<option value="loss">Loss of Account Slip</option>
-                		</optgroup>
+                		</optgroup>    
+            		</select>   
             		<br> 
             		<br>
             
@@ -75,6 +77,7 @@
 		
 	    		<div class="trddiv">
             		<label> Requirements</label>
+				<label id="req"></label>
             		<br>
             		<br>
 
@@ -95,7 +98,13 @@
 
         		<button type="cancel">Cancel Form</button>
         		<button type="submit">Submit</button>
+        		</section>
 			</div>
 		</div>
+	<script>
+		function myFunction() {
+  			document.getElementById("req").innerHTML = "50 pesos";
+		}
+	</script> 
     </body>
 </html>
