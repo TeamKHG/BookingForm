@@ -1,16 +1,24 @@
 body{
-    background-color: #F0F0F0;
-    width: 75%;
+    background-image: url("backgroundpic.png");
+    width: 50%;
     margin: auto;
     padding: 10px;
+    font-family: helvetica;
   
 }
 
 label {
     display: inline-block;
-    width: 150px;
+    width: 100px;
     text-align: left;
 
 }
 
+input, select {
+    height: 20px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #A0A0A0;
+    
+}
 
