@@ -31,27 +31,24 @@ header img{
   color:white;
 }
 .maindiv{
-  margin: auto;
   width: 83%;
-  height: 250px;
-  position: relative;
-  top: 23%;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  box-shadow: -10px 10px 5px gray;
-  background-color: #F0F0F0;
-  padding: 50px;
+  margin: auto;
   margin-top: 100px;
 }
 
 .scnddiv{
+  margin: auto;
   border-style: solid;
   border-width: 1px;
   border-radius: 8px;
-  width: 45%;
+  width: 46%;
   float: left;
-  padding: 2%;
+  position: relative;
+  box-shadow: -10px 10px 5px gray;
+  background-color: #F0F0F0;
+  padding-bottom:5%;
+  padding-top: 2%;
+  padding-left: 1.5%;
 }
 label {
   display: inline-block;
@@ -61,12 +58,21 @@ label {
   padding: 10px;
 
 }
-select, button, input{
+select, button{
   height: 20px;
   border-radius: 8px;
   border-width: 2px;
   border-color: #A0A0A0;
   border-style: solid;
+}
+input{
+  height: 20px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #A0A0A0;
+  border-style: solid;
+  min-height: 25px;
+  min-width: 60%;
 }
 .downb{
   height: 20px;
@@ -78,10 +84,13 @@ select, button, input{
 
 .alignpls{
     width: 60%;
+    min-height: 25px;
 }
 .lblalign{
     display: block;
+    min-height: 25px;
 }
 #req{
-    width: 75%;
+  min-width: 100%;
+  max-height: 20%;
 }
