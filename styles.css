@@ -55,6 +55,7 @@ label {
   width: 100px;
   text-align: left;
   font-family: Tahoma, sans-serif;
+  padding: 10px;
 
 }
 select, button, input{
