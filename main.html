@@ -1,14 +1,20 @@
 <!doctype html>  
     <html>     
         <head>      
-            <title> Booking Form </title>  
+            <title> Booking Form </title>   
 			<link rel="stylesheet" href="styles.css">
         </head>
         <body> 
-		<header>
-			<img src="pshs_new_logo.png" alt="PSHS Logo">	
-		</header>
-        <form>    
+            <header>
+                <img src="pshs_new_logo.png" alt="PSHS Logo">
+            </header>      
+        <br>
+        <br>  
+        <form>  
+            <br>
+            <br> 
+            <br>
+            <br>   
             <label> Firstname: </label>           
             <input type="text" name="firstname" size="15"/> 
 
@@ -36,6 +42,32 @@
             <br> 
             <br> 
 
+            <label> Service: </label>     
+            <select> 
+                <option value="ser">Service</option>     
+                <optgroup label="Registrar">          
+                <option value="cav">CAV Documents</option>        
+                <option value="custom">Customized Certificate</option>
+                <option value="bon">Bonafide Certificate</option>
+                <option value="grade">Certification of Grade</option>
+                <option value="graduation">Certificate of Graduation</option>
+                <option value="employ">Certificate of Employment</option>
+                <option value="auth">Document Authentication</option> 
+                <option value="form10">Form 10 (SHS)</option>
+                <option value="tort">TOR (Transferee)</option>
+                <option value="torf">TOR (Freshmen)</option>
+                </optgroup> 
+                <optgroup label = "Accountancy">
+                <option value="aold">Assessment (Old Account)</option>
+                <option value="acurr">Assessment (Current Account)</option> 
+                <option value="state">Statement of Account</option>
+                <option value="pay">Certificate of Full Payment</option>
+                <option value="loss">Loss of Account Slip</option>
+                </optgroup>    
+            </select>   
+            <br> 
+            <br>
+            
             <label> Message: </label>
                 <input type="text" name="message" size="50"/>
             <br> 
@@ -54,15 +86,14 @@
             <br>
             <br>
 
-            <label> Upload Files</label>
+            <label> Upload Files
                 <input type="file" id="myFile" name="filename">
-                <input type="submit">
+            </label>
             <br>
             <br>
-            
-        <button type="add">Add</button>
-        <button type="update">Update</button>
-        <button type="delete">Delete</button> 
+
+        <button type="submit">Submit</button>
+
 
 
     </body>
