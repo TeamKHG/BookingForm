@@ -60,4 +60,5 @@ select, button, input{
   border-radius: 8px;
   border-width: 2px;
   border-color: #A0A0A0;
+  border-style: solid;
 }
