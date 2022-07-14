@@ -3,26 +3,79 @@
         <head>      
             <title> Booking Form </title>   
 			<link rel="stylesheet" href="styles.css">
-		<script>
-			function changeFunc(i) {
-     				document.getElementById("req").innerHTML = "50p";
+
+			<script>
+				function changeFunc(i) {
+					switch(i) {
+  					case "cav":
+						document.getElementById("req").innerHTML = "- Photocopy of Diploma and TOR\n- Payment PHP 250.00";
+   					break;
+  					case "custom":
+						document.getElementById("req").innerHTML = "- Payment of PHP 150.00";
+   					break;
+ 					case "bon":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+					break;
+					case "grade":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+					break;
+					case "graduation":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+					break;
+					case "employ":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+					break;
+					case "auth":
+  						document.getElementById("req").innerHTML = "- Photocopy of Documents\n- Payment of PHP 20.00 per Page";
+					break;
+					case "form10":
+  						document.getElementById("req").innerHTML = "- Photocopy of Documents\n- Form 138\n- Form 137\n- Birth Certificate PSA (photocopy)\n- Surrender School ID\n- Documentary Stamp";
+					break;
+					case "tort":
+  						document.getElementById("req").innerHTML = "- School Clearance\n- Honorable Dismissal\n- Good Moral Character\n- TOR Copy for ACLC\n- 2pcs. NSO Birth Certiicate (photocopy)\n- 2pcs. 2x2 id picture (whitebg w/ collar)\n- 2pcs. Documentary stamp\n- Surrender School ID";
+					break;
+					case "torf":
+  						document.getElementById("req").innerHTML = "- School Clearance- Form 138-A\n- Good Moral Character\n- Form 137-A\n- 2pcs. NSO Birth Certiicate (photocopy)\n- 2pcs. 2x2 id picture (whitebg w/ collar)\n- 2pcs. Documentary stamp\n- Surrender school ID";
+					break;
+					case "aold":
+  						document.getElementById("req").innerHTML = "- Ask for USN No.";
+					break;
+					case "acurr":
+  						document.getElementById("req").innerHTML = "- Ask for USN No.";
+					break;
+					case "state":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+					break;
+					case "pay":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 20.00";
+					break;
+					case "loss":
+  						document.getElementById("req").innerHTML = "- Payment of PHP 20.00";
+					break;
+
+    				break;
+				}
    			}
-		</script>
+				</script>
         </head>
+
         <body> 
             <header>
                 <img src="pshs_new_logo.png" width="440" height="75" alt="PSHS Logo">
             </header>  
+
 		<div class="maindiv">
 			<div class="scnddiv">
+
         		<form>  
             		<br>
             		<br> 
             		<br>
             		<br>
+
             		<section>   
             		<label> Firstname: </label>           
-           		<input type="text" name="firstname" size="15"/> 
+           			<input type="text" name="firstname" size="15"/> 
 
             		<label> Lastname: </label>           
             		<input type="text" name="lastname" size="15"/> 
@@ -49,7 +102,7 @@
             		<br> 
 
             		<label> Service: </label>     
-           		<select id="Service" onchange="changeFunc(value);"> 
+					<select id="Service" onchange="changeFunc(value);">  
                 		<option>Service</option>     
                 		<optgroup label="Registrar">          
                 		<option value="cav">CAV Documents</option>        
@@ -80,9 +133,9 @@
             		<br>
 	    		</div>
 		
-	    		<div class="trddiv">
+	    		<div class="scnddiv">
             		<label> Requirements</label>
-			<label id="req"></label>
+						<label id="req"></label>
             		<br>
             		<br>
 
@@ -105,6 +158,6 @@
         		<button type="submit">Submit</button>
         		</section>
 			</div>
-		</div> 
+		</div>
     </body>
 </html>
