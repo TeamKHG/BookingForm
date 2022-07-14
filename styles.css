@@ -6,6 +6,9 @@ section{
   width: 50%;
   margin: auto;
   padding: 10px;
+  border-radius: 8px;
+  background-color: #F0F0F0;
+  
   
 }
 header{
