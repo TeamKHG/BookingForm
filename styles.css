@@ -1,7 +1,16 @@
 body{
-  background-color: F0F0F0;
-  width: 75%;
-  margin: auto;
-  padding: 10px;
+    background-color: #F0F0F0;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
   
 }
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+
+}
+
+
