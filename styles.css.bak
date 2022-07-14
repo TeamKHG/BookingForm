@@ -1,11 +1,17 @@
 body{
   background-image: url("backgroundpic.png");
+  padding: 10px;
+  font-family: helvetica;
+
+}
+section{
   width: 50%;
   margin: auto;
   padding: 10px;
-  font-family: inter;
-
+  background-color: #F0F0F0;
+  
 }
+
 
 header{
   position: fixed;
