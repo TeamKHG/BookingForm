@@ -11,49 +11,64 @@
 						document.getElementById("req").innerHTML = "";
 						break;
   					case "cav":
+						document.getElementById("req").innerHTML = "- Photocopy of Diploma and TOR\n- Payment PHP 250.00";
 						document.getElementById("req").innerHTML = "<ul><li>Photocopy of Diploma and TOR</li><li>Payment PHP 250.00</li></ul>";
    						break;
   					case "custom":
 						document.getElementById("req").innerHTML = "- Payment of PHP 150.00";
+						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 150.00</li></ul>";
    						break;
  					case "bon":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 50.00</li></ul>";
 						break;
 					case "grade":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 50.00</li></ul>";
 						break;
 					case "graduation":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 50.00</li></ul>";
 						break;
 					case "employ":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 50.00</li></ul>";
 						break;
 					case "auth":
   						document.getElementById("req").innerHTML = "- Photocopy of Documents\n- Payment of PHP 20.00 per Page";
+  						document.getElementById("req").innerHTML = "<ul><li>Photocopy of Documents</li><li>Payment of PHP 20.00 per Page</li></ul>";
 						break;
 					case "form10":
   						document.getElementById("req").innerHTML = "- Photocopy of Documents\n- Form 138\n- Form 137\n- Birth Certificate PSA (photocopy)\n- Surrender School ID\n- Documentary Stamp";
+  						document.getElementById("req").innerHTML = "<ul><li>Photocopy of Documents</li><li>Form 138</li><li>Form 137</li><li>Birth Certificate PSA (photocopy)</li><li>Surrender School ID</li><li>Documentary Stamp</li></ul>";
 						break;
 					case "tort":
   						document.getElementById("req").innerHTML = "- School Clearance\n- Honorable Dismissal\n- Good Moral Character\n- TOR Copy for ACLC\n- 2pcs. NSO Birth Certiicate (photocopy)\n- 2pcs. 2x2 id picture (whitebg w/ collar)\n- 2pcs. Documentary stamp\n- Surrender School ID";
+  						document.getElementById("req").innerHTML = "<ul><li>School Clearance</li><li>Honorable Dismissal</li><li>Good Moral Character</li><li>TOR Copy for ACLC</li><li>2pcs. NSO Birth Certiicate (photocopy)</li><li>2pcs. 2x2 id picture (whitebg w/ collar)</li><li>2pcs. Documentary stamp</li><li>Surrender School ID</li></ul>";
 						break;
 					case "torf":
   						document.getElementById("req").innerHTML = "- School Clearance- Form 138-A\n- Good Moral Character\n- Form 137-A\n- 2pcs. NSO Birth Certiicate (photocopy)\n- 2pcs. 2x2 id picture (whitebg w/ collar)\n- 2pcs. Documentary stamp\n- Surrender school ID";
+  						document.getElementById("req").innerHTML = "<ul><li>School Clearance- Form 138-A</li><li>Good Moral Character</li><li>Form 137-A</li><li>2pcs. NSO Birth Certiicate (photocopy)</li><li>2pcs. 2x2 id picture (whitebg w/ collar)</li><li>2pcs. Documentary stamp</li><li>Surrender school ID</li></ul>";
 						break;
 					case "aold":
   						document.getElementById("req").innerHTML = "- Ask for USN No.";
+  						document.getElementById("req").innerHTML = "<ul><li>Ask for USN No.</li></ul>";
 						break;
 					case "acurr":
   						document.getElementById("req").innerHTML = "- Ask for USN No.";
+  						document.getElementById("req").innerHTML = "<ul><li>Ask for USN No.</li></ul>";
 						break;
 					case "state":
   						document.getElementById("req").innerHTML = "- Payment of PHP 50.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 50.00</li></ul>";
 						break;
 					case "pay":
   						document.getElementById("req").innerHTML = "- Payment of PHP 20.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 20.00</li></ul>";
 						break;
 					case "loss":
   						document.getElementById("req").innerHTML = "- Payment of PHP 20.00";
+  						document.getElementById("req").innerHTML = "<ul><li>Payment of PHP 20.00</li></ul>";
 						break;
 				}
    			}
@@ -65,7 +80,7 @@
                 <img src="pshs_new_logo.png" width="440" height="75" alt="PSHS Logo">
 		<button id="homepage" height="75">RETURN TO HOMEPAGE</button>
             </header>  
-
+			<h1><u>     Booking Form     <u></h1>
 		<div class="maindiv">
 			<div class="scnddiv">
 
