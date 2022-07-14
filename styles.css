@@ -44,8 +44,11 @@ header img{
 }
 
 .scnddiv{
-    width: 50%;
-    float: left;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  width: 50%;
+  float: left;
 }
 label {
   display: inline-block;
