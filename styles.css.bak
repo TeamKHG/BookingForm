@@ -1,17 +1,8 @@
 body{
   background-image: url("backgroundpic.png");
-  padding: 10px;
-  font-family: helvetica;
-
-}
-section{
-  width: 50%;
-  margin: auto;
-  padding: 10px;
+  font-family: Tahoma, sans-serif;
   
 }
-
-
 header{
   position: relative;
   top: 0;
@@ -22,32 +13,45 @@ header{
 }
 
 header img{
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 13px;
 }
 
 .maindiv{
+  margin: auto;
+  width: 83%;
+  height: 71%;
   position: relative;
-  left: 121px;
-  top: 115px;
-  width: 1080px;
-  height: 640px;
+  top: 23%;
   border-style: solid;
   border-width: 1px;
-  box-shadow: -10px 10px gray;
+  border-radius: 8px;
+  box-shadow: -10px 10px 5px gray;
+  background-color: #F0F0F0;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .scnddiv{
-  width: 540px;
-  height: 640px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 100%;
 }
-
+.trddiv{
+  position: relative;
+  top: 0px;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
 label {
   display: inline-block;
   width: 100px;
   text-align: left;
-  font-family: inter;
+  font-family: Tahoma, sans-serif;
 
 }
 
