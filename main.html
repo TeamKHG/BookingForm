@@ -4,9 +4,9 @@
             <title> Booking Form </title>   
 			<link rel="stylesheet" href="styles.css">
 		<script>
-		function myFunction() {
-  			document.getElementById("req").innerHTML = "50 pesos";
-		}
+			function changeFunc(i) {
+     				document.getElementById("req").innerHTML = "50p";
+   			}
 		</script>
         </head>
         <body> 
@@ -49,10 +49,10 @@
             		<br> 
 
             		<label> Service: </label>     
-           		<select id="Service"> 
+           		<select id="Service" onchange="changeFunc(value);"> 
                 		<option>Service</option>     
                 		<optgroup label="Registrar">          
-                		<option value="cav" onclick="myFunction()">CAV Documents</option>        
+                		<option value="cav">CAV Documents</option>        
                 		<option value="custom">Customized Certificate</option>
                 		<option value="bon">Bonafide Certificate</option>
                 		<option value="grade">Certification of Grade</option>
