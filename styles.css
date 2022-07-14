@@ -26,10 +26,9 @@ header img{
 .maindiv{
   margin: auto;
   width: 83%;
+  height: 71%;
   position: relative;
   top: 115px;
-  width: 1080px;
-  height: 640px;
   border-style: solid;
   border-width: 1px;
   border-radius: 8px;
@@ -37,13 +36,12 @@ header img{
 }
 
 .scnddiv{
-  width: 540px;
-  height: 640px;
+  width: 50%;
+  height: 100%;
 }
 .trddiv{
-  
-  width: 540px;
-  height: 640px;
+  width: 50%;
+  height: 100%;
 }
 label {
   display: inline-block;
