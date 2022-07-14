@@ -65,6 +65,9 @@ select, button, input{
   border-style: solid;
 }
 .downb{
-  
+  height: 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: #007BBF;
 }
 
