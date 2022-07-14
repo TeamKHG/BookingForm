@@ -22,7 +22,7 @@ header{
 }
 
 header img{
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 13px;
 }
