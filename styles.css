@@ -79,3 +79,6 @@ select, button, input{
 .alignpls{
     width: 60%;
 }
+.lblalign{
+    display: block;
+}
