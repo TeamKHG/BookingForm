@@ -19,7 +19,7 @@ header{
 header img{
   position: fixed;
   top: 9;
-  left: 13;
+  left 13;
 }
 
 label {
@@ -30,7 +30,7 @@ label {
 
 }
 
-select, button, input{
+select, button{
   height: 20px;
   border-radius: 8px;
   border: 2px solid #A0A0A0;
