@@ -124,8 +124,8 @@ input:not([type=file]){
 }
 
 #myFile{
-    min-height: 40px;
-    width: 168%;
+  min-height: 40px;
+  width: 168%;
   display: block;
   background-color: white;
   border-radius: 8px;
@@ -140,6 +140,8 @@ input:not([type=file]){
 textarea{
   border-radius: 8px;
   font-family: Tahoma, sans-serif;
-  max-width: 60%;
-  max-height:90px
+  width: 83.5%;
+  max-height:90px;
+  display: block;
+  margin-left: 2%;;
 }
