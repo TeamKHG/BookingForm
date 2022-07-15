@@ -12,13 +12,20 @@ header{
   background-color: #007BBF;
 }
 
+
+h1{
+    text-align: center;
+}
+
 header img{
   position: relative;
   top: 0px;
   left: 13px;
 }
 
-#homepage {
+#homepage {  
+  float: right;
+  margin-top: 25px;
   position: relative;
   right: 20px;
   padding: 5px;
@@ -94,8 +101,4 @@ input{
 #req{
   min-width: 100%;
   max-height: 20%;
-}
-
-h1{
-    text-align: center;
 }
