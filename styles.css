@@ -137,3 +137,9 @@ input:not([type=file]){
   text-align: center;
   
 }
+textarea{
+  border-radius: 8px;
+  font-family: Tahoma, sans-serif;
+  max-width: 60%;
+  max-height:90px
+}
